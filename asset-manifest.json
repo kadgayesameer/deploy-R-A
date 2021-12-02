@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/deploy-R-A/static/css/main.fc1bc4a6.chunk.css",
+    "main.js": "/deploy-R-A/static/js/main.9aafbe3a.chunk.js",
+    "main.js.map": "/deploy-R-A/static/js/main.9aafbe3a.chunk.js.map",
+    "runtime-main.js": "/deploy-R-A/static/js/runtime-main.15758304.js",
+    "runtime-main.js.map": "/deploy-R-A/static/js/runtime-main.15758304.js.map",
+    "static/css/2.9c4d030d.chunk.css": "/deploy-R-A/static/css/2.9c4d030d.chunk.css",
+    "static/js/2.d6b292c3.chunk.js": "/deploy-R-A/static/js/2.d6b292c3.chunk.js",
+    "static/js/2.d6b292c3.chunk.js.map": "/deploy-R-A/static/js/2.d6b292c3.chunk.js.map",
+    "static/js/3.cfe00682.chunk.js": "/deploy-R-A/static/js/3.cfe00682.chunk.js",
+    "static/js/3.cfe00682.chunk.js.map": "/deploy-R-A/static/js/3.cfe00682.chunk.js.map",
+    "index.html": "/deploy-R-A/index.html",
+    "static/css/2.9c4d030d.chunk.css.map": "/deploy-R-A/static/css/2.9c4d030d.chunk.css.map",
+    "static/css/main.fc1bc4a6.chunk.css.map": "/deploy-R-A/static/css/main.fc1bc4a6.chunk.css.map",
+    "static/js/2.d6b292c3.chunk.js.LICENSE.txt": "/deploy-R-A/static/js/2.d6b292c3.chunk.js.LICENSE.txt",
+    "static/media/officeLoginBackground.01f1f270.jpg": "/deploy-R-A/static/media/officeLoginBackground.01f1f270.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15758304.js",
+    "static/css/2.9c4d030d.chunk.css",
+    "static/js/2.d6b292c3.chunk.js",
+    "static/css/main.fc1bc4a6.chunk.css",
+    "static/js/main.9aafbe3a.chunk.js"
+  ]
+}
