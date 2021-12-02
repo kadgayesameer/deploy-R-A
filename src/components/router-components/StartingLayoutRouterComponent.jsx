@@ -21,7 +21,7 @@ export default class StartingLayoutRouterComponent extends Component {
       AuthenticationService.requestHeaderBinderOnRefresh();
     }
     return (
-      <Router>
+      <Router basename="/deploy-R-A">
         {/* <LoginComponent/> */}
         <Switch>
           <Route exact path="/login">
