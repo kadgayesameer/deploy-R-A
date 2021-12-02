@@ -1,0 +1,210 @@
+.login {
+  background-position: unset;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url("/images/loginLock.jpg"); */
+  /* public\assets\img\loginLock.jpg */
+  /* background-image: url('assets/img/loginLock.jpg');
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat' */
+}
+.login .wrapper.wrapper-login .container-login,
+.login .wrapper.wrapper-login .container-signup {
+  width: 400px;
+  height: 415px;
+  background: #fff;
+  padding: 0 25px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  -moz-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  border: 1px solid #ebecec;
+}
+
+@media (max-width: 430px) {
+  .login .wrapper.wrapper-login .container-login,
+  .login .wrapper.wrapper-login .container-signup {
+    width: 400px;
+    height: 515px;
+    background: #fff;
+    padding: 0 25px 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    -moz-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    border: 1px solid #ebecec;
+  }
+}
+
+.login .login-form .col-2 {
+  padding: 5px;
+}
+
+.login .loginForm {
+  height: 125px;
+}
+
+.login .toggle-switch {
+  position: relative;
+  width: 65px;
+  display: inline-block;
+  text-align: left;
+  top: 8px;
+}
+.login .checkbox {
+  display: none;
+}
+.login .label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+}
+.login .inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.login .inner:before,
+.login .inner:after {
+  float: left;
+  width: 50%;
+  height: 24px;
+  padding: 0;
+  line-height: 24px;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.login .inner:before {
+  content: "USER";
+  padding-left: 10px;
+  background-color: #00f;
+  color: #fff;
+}
+.login .inner:after {
+  content: "MPIN";
+  padding-right: 10px;
+  background-color: #f00;
+  color: #fff;
+  text-align: right;
+}
+.login .switch {
+  display: block;
+  width: 16px;
+  margin: 5px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 40px;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.login .checkbox:checked + .label .inner {
+  margin-left: 0;
+}
+.login .checkbox:checked + .label .switch {
+  right: 0px;
+}
+
+/* .login .custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+
+.login label {
+  display: inline-block;
+  margin-bottom: 0.5 rem;
+}
+
+.login *,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.login label {
+  cursor: default;
+}
+
+.login
+  .custom-control-input:not(:disabled):active
+  ~ .custom-control-label::before {
+  color: #fff;
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+
+.login .custom-switch .custom-control-label::before {
+  left: -2.25 rem;
+  width: 1.75 rem;
+  pointer-events: all;
+  border-radius: 0.5 rem;
+}
+
+.login .custom-control-label::before,
+.custom-file-label,
+.custom-select {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.login .custom-control-label::before {
+  position: absolute;
+  top: 0.25 rem;
+  left: -1.5 rem;
+  display: block;
+  width: 1 rem;
+  height: 1 rem;
+  pointer-events: none;
+  content: "";
+  background-color: #fff;
+  border: #adb5bd solid 1 px;
+}
+
+.login *,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.login .custom-switch .custom-control-label::after {
+  top: calc(0.25 rem + 2 px);
+  left: calc(-2.25 rem + 2 px);
+  width: calc(1 rem - 4 px);
+  height: calc(1 rem - 4 px);
+  background-color: #adb5bd;
+  border-radius: 0.5 rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-transform 0.15s ease-in-out;
+}
+
+.login .custom-control-label::after {
+  position: absolute;
+  top: 0.25 rem;
+  left: -1.5 rem;
+  display: block;
+  width: 1 rem;
+  height: 1 rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.login *,
+::after,
+::before {
+  box-sizing: border-box;
+} */

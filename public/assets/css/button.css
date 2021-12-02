@@ -1,0 +1,345 @@
+/**====== gradient css Start ======**/
+.btn-grd-danger,
+.btn-grd-disabled,
+.btn-grd-info,
+.btn-grd-inverse,
+.btn-grd-primary,
+.btn-grd-blue,
+.btn-grd-secondary,
+.btn-grd-success,
+.btn-grd-green,
+.btn-grd-purple,
+.btn-grd-warning,
+.btn-grd-warning {
+  background-size: 200% auto;
+  transition: 0.5s ease-in-out;
+  color: #fff;
+}
+.btn-grd-danger:hover,
+.btn-grd-disabled:hover,
+.btn-grd-info:hover,
+.btn-grd-inverse:hover,
+.btn-grd-primary:hover,
+.btn-grd-blue:hover,
+.btn-grd-secondary:hover,
+.btn-grd-success:hover,
+.btn-grd-green:hover,
+.btn-grd-purple:hover,
+.btn-grd-warning:hover,
+.btn-grd-warning:hover {
+  background-position: right center;
+}
+.btn-grd-danger.hor-grd,
+.btn-grd-disabled.hor-grd,
+.btn-grd-info.hor-grd,
+.btn-grd-inverse.hor-grd,
+.btn-grd-primary.hor-grd,
+.btn-grd-blue.hor-grd,
+.btn-grd-secondary.hor-grd,
+.btn-grd-success.hor-grd,
+.btn-grd-green.hor-grd,
+.btn-grd-purple.hor-grd,
+.btn-grd-warning.hor-grd,
+.btn-grd-warning.hor-grd {
+  background-size: auto 200%;
+}
+.btn-grd-danger.hor-grd:hover,
+.btn-grd-disabled.hor-grd:hover,
+.btn-grd-info.hor-grd:hover,
+.btn-grd-inverse.hor-grd:hover,
+.btn-grd-primary.hor-grd:hover,
+.btn-grd-blue.hor-grd:hover,
+.btn-grd-secondary.hor-grd:hover,
+.btn-grd-success.hor-grd:hover,
+.btn-grd-green.hor-grd:hover,
+.btn-grd-purple.hor-grd:hover,
+.btn-grd-warning.hor-grd:hover,
+.btn-grd-warning.hor-grd:hover {
+  background-position: bottom center;
+}
+
+.btn-grd-primary {
+  background-image: linear-gradient(
+    to right,
+    #79a3ff 0%,
+    #0956ff 51%,
+    #79a3ff 100%
+  );
+}
+.btn-grd-primary.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #79a3ff 0%,
+    #0956ff 51%,
+    #79a3ff 100%
+  );
+}
+
+.btn-grd-blue {
+  background-image: linear-gradient(
+    to right,
+    #0066ff 0%,
+    #00ffcc 51%,
+    #0066ff 100%
+  );
+}
+.btn-grd-blue.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #0066ff 0%,
+    #00ffcc 51%,
+    #0066ff 100%
+  );
+}
+
+.btn-grd-blue-reverse {
+  background-image: linear-gradient(
+    to right,
+    #66ffff 0%,
+    #0099ff 51%,
+    #66ffff 100%
+  );
+}
+.btn-grd-blue-reverse.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #66ffff 0%,
+    #0099ff 51%,
+    #66ffff 100%
+  );
+}
+
+.btn-grd-secondary {
+  background-image: linear-gradient(
+    to right,
+    #d0d3d4 0%,
+    #a2a4c0 51%,
+    #d0d3d4 100%
+  );
+}
+.btn-grd-secondary.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #d0d3d4 0%,
+    #a2a4c0 51%,
+    #d0d3d4 100%
+  );
+}
+
+.btn-grd-warning {
+  background-image: linear-gradient(
+    to right,
+    #ffcb80 0%,
+    #ff9d10 51%,
+    #ffcb80 100%
+  );
+}
+.btn-grd-warning.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #ffcb80 0%,
+    #ff9d10 51%,
+    #ffcb80 100%
+  );
+}
+
+.btn-grd-danger {
+  background-image: linear-gradient(
+    to right,
+    #fd93a8 0%,
+    #fb2550 51%,
+    #fd93a8 100%
+  );
+}
+.btn-grd-danger.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #fd93a8 0%,
+    #fb2550 51%,
+    #fd93a8 100%
+  );
+}
+
+.btn-grd-success {
+  background-image: linear-gradient(
+    to right,
+    #aacc77 0%,
+    #73993a 51%,
+    #aacc77 100%
+  );
+}
+.btn-grd-success.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #aacc77 0%,
+    #73993a 51%,
+    #aacc77 100%
+  );
+}
+
+.btn-grd-green {
+  background-image: linear-gradient(
+    to right,
+    #00cc00 0%,
+    #99ff66 51%,
+    #00cc00 100%
+  );
+}
+.btn-grd-green.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #00cc00 0%,
+    #99ff66 51%,
+    #00cc00 100%
+  );
+}
+
+.btn-grd-purple {
+  background-image: linear-gradient(
+    to right,
+    #c4c4d6 0%,
+    #716aca 51%,
+    #c4c4d6 100%
+  );
+}
+.btn-grd-purple.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #c4c4d6 0%,
+    #716aca 51%,
+    #c4c4d6 100%
+  );
+}
+
+/* .btn-grd-inverse {
+  background-image: linear-gradient(
+    to right,
+    #444c67 0%,
+    #181a23 51%,
+    #444c67 100%
+  );
+} */
+.btn-grd-inverse {
+  background-image: linear-gradient(to right, #fff 0%, #000 51%, #fff 100%);
+}
+.btn-grd-inverse.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #444c67 0%,
+    #181a23 51%,
+    #444c67 100%
+  );
+}
+
+.btn-grd-info {
+  background-image: linear-gradient(
+    to right,
+    #91dff7 0%,
+    #29c0ef 51%,
+    #91dff7 100%
+  );
+}
+.btn-grd-info.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #91dff7 0%,
+    #29c0ef 51%,
+    #91dff7 100%
+  );
+}
+
+.btn-grd-disabled {
+  background-image: linear-gradient(
+    to right,
+    #79a3fe 0%,
+    #0956fe 51%,
+    #79a3fe 100%
+  );
+}
+.btn-grd-disabled.hor-grd {
+  background-image: linear-gradient(
+    to top,
+    #79a3fe 0%,
+    #0956fe 51%,
+    #79a3fe 100%
+  );
+}
+
+/**====== gradient-Buttons css end ======**/
+/**====== matrialized-Buttons css Start ======**/
+.btn.btn-mat {
+  position: relative;
+  border-radius: 0;
+  border: none;
+}
+.btn.btn-mat:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.btn.btn-mat:hover {
+  border: none;
+}
+.btn.btn-mat:hover:before {
+  left: 0;
+  right: 0;
+}
+
+.btn-primary.btn-mat,
+.sweet-alert button.btn-mat.confirm,
+.wizard > .actions a.btn-mat {
+  background-color: #4680ff;
+}
+.btn-primary.btn-mat:before,
+.sweet-alert button.btn-mat.confirm:before,
+.wizard > .actions a.btn-mat:before {
+  background-color: #0956ff;
+}
+
+.btn-warning.btn-mat {
+  background-color: #ffb64d;
+}
+.btn-warning.btn-mat:before {
+  background-color: #ff9d10;
+}
+
+.btn-danger.btn-mat {
+  background-color: #fc6180;
+}
+.btn-danger.btn-mat:before {
+  background-color: #fb2550;
+}
+
+.btn-success.btn-mat {
+  background-color: #93be52;
+}
+.btn-success.btn-mat:before {
+  background-color: #73993a;
+}
+
+.btn-inverse.btn-mat {
+  background-color: #303548;
+}
+.btn-inverse.btn-mat:before {
+  background-color: #181a23;
+}
+
+.btn-info.btn-mat {
+  background-color: #62d1f3;
+}
+.btn-info.btn-mat:before {
+  background-color: #29c0ef;
+}
+
+.btn-outline-disabled {
+  background-color: #4680fe;
+}
+.btn-outline-disabled:before {
+  background-color: #0956fe;
+}
+
+/**====== matrialized css end ======**/
